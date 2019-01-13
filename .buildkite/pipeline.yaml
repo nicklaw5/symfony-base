@@ -1,2 +1,2 @@
 steps:
-  - command: .buildkite/steps/hello-world.sh
+  - command: .buildkite/steps/run_tests.sh
