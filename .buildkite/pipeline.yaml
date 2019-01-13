@@ -1,0 +1,2 @@
+steps:
+  - command: .buildkite/steps/hello-world.sh

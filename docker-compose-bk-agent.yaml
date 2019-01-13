@@ -3,3 +3,5 @@ version: '3'
 services:
   bk-agent:
     build: docker/buildkite-agent
+    volumes:
+      - ~/.ssh/id_rsa:/root/.ssh/id_rsa
