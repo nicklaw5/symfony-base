@@ -9,7 +9,7 @@ services:
       - ./symfony:/usr/share/nginx/html/symfony:cached
       - ./logs:/var/log
     networks:
-      - netty
+      - symfony-ecs-base
   web:
     build: docker/nginx
     restart: always
@@ -21,8 +21,8 @@ services:
       - ./symfony:/usr/share/nginx/html/symfony:cached
       - ./logs:/var/log/nginx
     networks:
-      - netty
+      - symfony-ecs-base
 
 networks:
-  netty:
+  symfony-ecs-base:
     driver: bridge
