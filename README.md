@@ -31,6 +31,7 @@ composer require --dev -d symfony symfony/phpunit-bridge
 docker-compose -f ./docker-compose-bk-agent.yaml run -e BUILDKITE_AGENT_TOKEN=<your-bk-agent-token> bk-agent
 
 # Push newly created project to GitHub
+git init
 git add .
 git commit -m "First commit"
 git git remote add origin git@github.com:<username>/<project-name>.git
