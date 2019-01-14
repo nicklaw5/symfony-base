@@ -7,6 +7,7 @@ This repository provides the base docker and CI/CD pipeline boilerplate for depl
 - Git
 - Composer
 - Docker & Docker Compose
+- Buildkite account (paid subscription for private repositories)
 
 ## Before Starting
 
