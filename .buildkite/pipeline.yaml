@@ -1,2 +1,3 @@
 steps:
-  - command: .buildkite/steps/run_tests.sh
+  - name: Run tests
+    command: .buildkite/steps/run_tests.sh
