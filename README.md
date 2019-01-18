@@ -1,4 +1,4 @@
-# symfony-ecs-base
+# symfony-base
 
 This repository provides the base docker and CI/CD pipeline boilerplate for deploying a Symfony 4 application to AWS ECS.
 
@@ -18,7 +18,7 @@ This repository provides the base docker and CI/CD pipeline boilerplate for depl
 
 ```bash
 # Clone this repository (without .git directory)
-git clone --depth=1 git@github.com:nicklaw5/symfony-ecs-base.git <project-name>
+git clone --depth=1 git@github.com:nicklaw5/symfony-base.git <project-name>
 cd <project-name>
 rm -rf .git
 
