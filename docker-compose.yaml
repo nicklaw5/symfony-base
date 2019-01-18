@@ -14,7 +14,7 @@ services:
     build: docker/nginx
     restart: always
     ports:
-      - 8080:80
+      - 80:80
     depends_on:
       - php
     volumes:
